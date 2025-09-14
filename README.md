@@ -39,9 +39,11 @@ eventDate como fecha (YYYY-MM-DD).
 
 scientificName bien escrito
 
-```r
-## Ejemplo rápido:
 
+---
+
+## Ejemplo rápido de uso:
+```r
 library(dwcCOL)
 library(tibble)
 library(dplyr)
