@@ -23,13 +23,13 @@ install.packages("remotes")
 remotes::install_github("camiloesor06/dwcCOL")
 ``` 
 
-Que debo preparar para que el código funcione?
+## Que debo preparar para que el código funcione?
 
 | scientificName | decimalLatitude | decimalLongitude | eventDate  | recordedBy              |
 | -------------- | --------------: | ---------------: | ---------- | ----------------------- |
 | Scinax wandae  |        2.871077 |       -72.058634 | 2022-02-15 | Camilo Andrés Estupiñan |
 
-## Reglas simples:
+### Reglas simples:
 
 decimalLatitude y decimalLongitude en grados decimales (punto como separador; oeste es negativo).
 
@@ -74,9 +74,7 @@ out <- dwc_build(
 )
 
 # Ver lo importante
-out %>% select(stateProvince, municipality, locationID,
-               kingdom, family, genus, specificEpithet,
-               scientificNameAuthorship, vernacularName)
+head(out)
 
 # Guardar CSV con el orden exacto del header (Excel-friendly)
 dir.create("export", showWarnings = FALSE)
