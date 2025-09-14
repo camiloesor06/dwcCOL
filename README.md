@@ -12,6 +12,6 @@
 ## Instalación
 
 ```r
-# Instalar desde GitHub (reemplaza TU_USUARIO)
+# Instalar desde GitHub 
 install.packages("remotes")
-remotes::install_github("TU_USUARIO/dwcCOL")
+remotes::install_github("camiloesor06/dwcCOL")
