@@ -21,7 +21,7 @@ Tú pasas lo mínimo (especie + fecha + lat/lon) y el paquete te devuelve una ta
 # Instalar desde GitHub 
 install.packages("remotes")
 remotes::install_github("camiloesor06/dwcCOL")
----
+``` 
 
 Que debo preparar para que el código funcione?
 
